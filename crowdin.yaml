@@ -1,4 +1,4 @@
-project_identifier: yarnpkg
+project_identifier: yarn
 api_key_env: CROWDIN_API_KEY
 base_path: .
 

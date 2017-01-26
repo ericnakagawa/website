@@ -1,25 +1,46 @@
 ---
 layout: null
 ---
-/downloads/:version/:file https://github.com/yarnpkg/yarn/releases/download/v:version/:file
+{% capture _redirects %}
 
-# Nice short URLs to download the latest release
-/latest.tar.gz     https://github.com/yarnpkg/yarn/releases/download/v{{site.latest_version}}/yarn-v{{site.latest_version}}.tar.gz      302
-/latest.tar.gz.asc https://github.com/yarnpkg/yarn/releases/download/v{{site.latest_version}}/yarn-v{{site.latest_version}}.tar.gz.asc  302
-/latest.msi        https://github.com/yarnpkg/yarn/releases/download/v{{site.latest_version}}/yarn-{{site.latest_version}}.msi          302
-/latest.deb        https://github.com/yarnpkg/yarn/releases/download/v{{site.latest_version}}/yarn_{{site.latest_version}}_all.deb      302
-/latest.rpm        https://github.com/yarnpkg/yarn/releases/download/v{{site.latest_version}}/yarn-{{site.latest_version}}-1.noarch.rpm 302
+{% assign urls_sorted = site.pages | map: "url" | sort %}
+{% assign urls_filtered = "" | split: "," | pop %}
 
-/en  /  302
-
-{% for language in site.data.languages %}
-  {% if language.enabled %}
-    {% if language.tag != "en" %}
-      {% for accept_language in language.accept_languages %}
-/  /{{language.tag}}  302  Language={{accept_language}}
-      {% endfor %}
-    {% endif %}
-
-/{{language.tag}}/docs/install_ci   /{{language.tag}}/docs/install-ci  302
+{% for url in urls_sorted %}
+  {% assign first_four_chars = url | slice: 0, 4 %}
+  {% if first_four_chars == "/en/" %}
+    {% assign url_stripped = url | replace: "/en/", "/" %}
+    {% assign urls_filtered = urls_filtered | push: url_stripped %}
   {% endif %}
 {% endfor %}
+
+{% assign redirects = "" | split: "," | pop %}
+
+{% for language in site.data.languages %}
+  {% unless language.enabled %}
+    {% for accept_language in language.accept_languages %}
+
+      {% if language.tag != "en" %}
+        {% capture redirect %}/  /{{language.tag}}/  302  Language={{accept_language}}{% endcapture %}
+        {% assign redirects = redirects | push: redirect %}
+      {% endif %}
+
+      {% for url in urls_filtered %}
+        {% capture redirect %}{{url}} /{{language.tag}}{{url}}  302  Language={{accept_language}}{% endcapture %}
+        {% assign redirects = redirects | push: redirect %}
+
+        {% capture redirect %}/en{{url}} /{{language.tag}}{{url}}  302  Language={{accept_language}}{% endcapture %}
+        {% assign redirects = redirects | push: redirect %}
+      {% endfor %}
+
+    {% endfor %}
+  {% endunless %}
+{% endfor %}
+
+{% capture newline %}
+{% endcapture %}
+
+{% endcapture %}
+/en   /  302
+/en/  /  302
+{{redirects | join: newline}}
