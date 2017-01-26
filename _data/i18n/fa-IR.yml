@@ -202,5 +202,5 @@ ci_select_platform: Select the continuous integration system you're using from t
 ci_appveyor: AppVeyor
 ci_circle: CircleCI
 ci_codeship: Codeship
-ci_travis: Codeship
+ci_travis: Travis
 ci_semaphore: Semaphore
