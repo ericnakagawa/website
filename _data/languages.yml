@@ -47,11 +47,11 @@
   tag: "it"
   enabled: No
   accept_languages: ["it", "it-ch"]
-- name: "日本語"語
+- name: "日本語語"
   tag: "ja"
   enabled: No
   accept_languages: ["ja"]
-- name: "한국어"어
+- name: "한국어어"
   tag: "ko"
   enabled: No
   accept_languages: ["ko"]
@@ -77,7 +77,7 @@
   accept_languages: ["pt"]
 - name: "Português (Brasil)"
   tag: "pt-BR"
-  enabled: No
+  enabled: Yes
   accept_languages: ["pt-br"]
 - name: "Română"
   tag: "ro"
@@ -111,11 +111,11 @@
   tag: "uk"
   enabled: No
   accept_languages: ["uk"]
-- name: "中文"文
+- name: "中文文"
   tag: "zh-Hans"
   enabled: No
   accept_languages: ["zh-cn", "zh-hk", "zh-tw", "zh-sg"]
-- name: "繁體中文"文
+- name: "繁體中文文"
   tag: "zh-Hant"
   enabled: No
   accept_languages: []

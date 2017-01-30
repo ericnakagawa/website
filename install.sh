@@ -1,18 +1,20 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
-reset="\e[0m"
-red="\e[0;31m"
-green="\e[0;32m"
-yellow="\e[0;33m"
-cyan="\e[0;36m"
-white="\e[0;37m"
+reset="\033[0m"
+red="\033[31m"
+green="\033[32m"
+yellow="\033[33m"
+cyan="\033[36m"
+white="\033[37m"
 gpg_key=9D41F3C3
 
 yarn_get_tarball() {
   printf "$cyan> Downloading tarball...$reset\n"
   if [ "$1" = '--nightly' ]; then
     url=https://nightly.yarnpkg.com/latest.tar.gz
+  elif [ "$1" = '--rc' ]; then
+    url=https://yarnpkg.com/latest-rc.tar.gz
   elif [ "$1" = '--version' ]; then
     # Validate that the version matches MAJOR.MINOR.PATCH to avoid garbage-in/garbage-out behavior
     version=$2
@@ -33,7 +35,7 @@ yarn_get_tarball() {
     printf "$cyan> Extracting to ~/.yarn...$reset\n"
     mkdir .yarn
     tar zxf $tarball_tmp -C .yarn --strip 1 # extract tarball
-    rm $tarball_tmp{,.asc}
+    rm $tarball_tmp*
   else
     printf "$red> Failed to download $url.$reset\n"
     exit 1;
@@ -167,6 +169,10 @@ yarn_install() {
       elif [ "$1" = '--version' ]; then
         specified_version=$2
         version_type='specified'
+      elif [ "$1" = '--rc' ]; then
+        latest_url=https://yarnpkg.com/latest-rc-version
+        specified_version=`curl -sS $latest_url`
+        version_type='rc'
       else
         latest_url=https://yarnpkg.com/latest-version
         specified_version=`curl -sS $latest_url`
@@ -176,6 +182,7 @@ yarn_install() {
       yarn_alt_version=`yarn --version`
       if [ "$specified_version" = "$yarn_version" -o "$specified_version" = "$yarn_alt_version" ]; then
         printf "$green> Yarn is already at the $specified_version version.$reset\n"
+        exit 0
       else
         rm -rf "$HOME/.yarn"
       fi

@@ -39,7 +39,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownNavLanguage">
               {% for language in site.data.languages %}
                 {% if language.enabled %}
-                  <a href="{{site.baseurl}}/{{language.tag}}/{{vars_url_relative}}"
+                  <a href="{{site.baseurl}}/lang/{{language.tag}}/{{vars_url_relative}}"
                     class="dropdown-item{% if vars_active_language.tag == language.tag %} active{% endif %}">
                     {{language.name}}
                   </a>
@@ -76,9 +76,15 @@
 
         <li class="nav-item">
           <span class="sr-only">The current version of Yarn is</span>
+          {{i18n.site_nav_stable_version}}:
           <strong class="navbar-text">
             v{{site.latest_version}}
           </strong>
+          {% if site.show_rc %}
+            <span aria-hidden="true">&bull;</span>
+            <abbr title="{{i18n.site_nav_rc_version}}">RC</abbr>:
+            <strong>v{{site.latest_rc_version}}</strong>
+          {% endif %}
         </li>
       </ul>
     </div>
