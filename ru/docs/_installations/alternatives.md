@@ -1,4 +1,4 @@
-### Alternatives
+### Альтернативы
 
 If you are using another OS or one of the other options specific to your OS will not work for you, there are a couple of alternatives. You will need to [install Node.js](https://nodejs.org/) if you don't already have it installed.
 

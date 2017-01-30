@@ -54,4 +54,4 @@ sudo eopkg install yarn
 
 ### Ustawienie ścieżki
 
-{% relatywne_instalacje/sciezka_instalacyjna_unixa.md %}
+{% include_relative _installations/unix_path_setup.md %}

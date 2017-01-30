@@ -1,6 +1,6 @@
 ### Windows
 
-There are two options for installing Yarn on Windows.
+Есть два варианта установки Yarn на Windows.
 
 #### Загрузить установщик
 
@@ -18,6 +18,6 @@ choco install yarn
 
 Также у вас должен быть установлен [Node.js](https://nodejs.org/).
 
-#### Notice
+#### Примечание
 
 Please whitelist your project folder and the Yarn cache directory (%LocalAppData%\Yarn) in your antivirus software, otherwise installing packages will be significantly slower as every single file will be scanned as it's written to disk.
