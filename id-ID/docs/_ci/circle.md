@@ -1,4 +1,4 @@
-On [CircleCI](https://circleci.com/), you can install Yarn as part of your build by adding this to your `circle.yml` file:
+Di [CircleCI](https://circleci.com/), anda dapat menginstal Yarn dengan menambahkan baris berikut kedalam file `circle.yml` anda:
 
 ```yml
 dependencies:

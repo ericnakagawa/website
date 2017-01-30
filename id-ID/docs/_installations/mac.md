@@ -2,13 +2,13 @@
 
 #### Homebrew
 
-You can install Yarn through the [Homebrew package manager](http://brew.sh/). This will also install Node.js if it is not already installed.
+Anda dapat menginstal Yarn melalui [Homebrew package manager](http://brew.sh/). Metode ini juga akan sekaligus menginstal Node.js jika belum terinstal.
 
 ```sh
 brew update
 brew install yarn
 ```
 
-#### Path Setup
+#### Persiapan Path
 
 {% include_relative _installations/unix_path_setup.md %}

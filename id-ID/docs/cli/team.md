@@ -4,7 +4,7 @@ id: docs_cli_team guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Maintain team memberships</p>
+<p class="lead">Melakukan administrasi tim</p>
 
 ##### `yarn team` [](#toc-yarn-team){#toc-yarn-team.toc}
 

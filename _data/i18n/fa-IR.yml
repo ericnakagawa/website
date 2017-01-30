@@ -1,6 +1,6 @@
 ---
 site_title: Yarn
-site_description: Fast, reliable, and secure dependency management.
+site_description: مدیریت وابستگی سریع،قابل اطمینان و امن.
 site_nav_getting_started: Getting Started
 site_nav_documentation: Docs
 site_nav_packages: Packages
@@ -11,7 +11,7 @@ site_edit_this_page: Edit this page
 blog_title: Yarn Blog
 guide_additional_reading: Additional Reading
 iframe_github_stars: GitHub Stars
-homepage_tagline: Fast, reliable, and secure dependency management.
+homepage_tagline: مدیریت وابستگی سریع،قابل اطمینان و امن.
 homepage_feature_fast_title: Ultra Fast.
 homepage_feature_fast_description: |
   Yarn caches every package it downloads so it never needs to download it again. It also
@@ -166,7 +166,7 @@ users_add_requirements_logo: >
 install_intro: >
   Before you start using Yarn, you'll first need to install it on your system. There is a growing number of different ways to install Yarn:
 install_select_platform: Select your platform above
-install_os_mac: macOS
+install_os_mac: سیستم عامل مک
 install_os_windows: Windows
 install_os_linux: Linux
 install_os_alternatives: Alternatives

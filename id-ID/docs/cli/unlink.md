@@ -4,9 +4,9 @@ id: docs_cli_unlink guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Unlink a previously created symlink for a package.</p>
+<p class="lead">Menghapus symlink yang dibuat oleh sebuah paket.</p>
 
-To remove a symlinked package created with [`yarn link`](./link), `yarn unlink` can be used.
+Untuk menghapus paket yang telah di-symlink dengan perintah [`yarn link`](./link), anda dapat menggunakan perintah `yarn unlink`.
 
 ##### `yarn unlink` [](#toc-yarn-unlink){#toc-yarn-unlink.toc}
 

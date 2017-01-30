@@ -6,7 +6,7 @@ id: docs_cli_install guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-`yarn install` is used to install all dependencies for a project. This is most commonly used when you have just checked out code for a project, or when another developer on the project has added a new dependency that you need to pick up.
+`yarn install` digunakan untuk menginstal semua dependensi dari sebuah proyek. This is most commonly used when you have just checked out code for a project, or when another developer on the project has added a new dependency that you need to pick up.
 
 If you are used to using npm you might be expecting to use `--save` or `--save-dev`. These have been replaced by `yarn add` and `yarn add --dev`. For more information, see [the `yarn add` documentation]({{url_base}}/docs/cli/add).
 

@@ -1,3 +1,3 @@
-You will need to set up the `PATH` environment variable in your terminal to have access to Yarn's binaries globally.
+برای اینکه بتوانید Yarn را به صورت مستقیم در ترمینال استفاده کنید (بدون تایپ مسیر فایل اجرایی) باید آن را به متغیر `PATH` ترمینال خود اضافه کنید.
 
-Add `set PATH=%PATH%;C:\.yarn\bin` to your shell environment.
+<bdi>`set PATH=%PATH%;C:\.yarn\bin`</bdi> &nbsp;را به محیط shell خود اضافه کنید.

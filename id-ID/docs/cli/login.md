@@ -6,7 +6,7 @@ id: docs_cli_login guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Store registry username and email.</p>
+<p class="lead">Menyimpan username dan email untuk sebuah registri.</p>
 
 ##### `yarn login` [](#toc-yarn-login){#toc-yarn-login.toc}
 

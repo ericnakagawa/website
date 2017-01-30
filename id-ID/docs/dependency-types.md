@@ -4,7 +4,7 @@ id: docs_dependency_types guide: docs_dependencies layout: guide
 
 * * *
 
-Dependencies serve many different purposes. Some dependencies are needed to build your project, others are needed when you're running your program. As such there are a number of different types of dependencies that you can have (e.g. `dependencies`, `devDependencies`, and `peerDependencies`).
+Dependensi dibutuhkan untuk berbagai tujuan. Some dependencies are needed to build your project, others are needed when you're running your program. As such there are a number of different types of dependencies that you can have (e.g. `dependencies`, `devDependencies`, and `peerDependencies`).
 
 Your `package.json` will contain all of these dependencies:
 

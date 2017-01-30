@@ -4,7 +4,7 @@ id: docs_cli_outdated guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Checks for outdated package dependencies.</p>
+<p class="lead">Melakukan pengecekan untuk memeriksa dependensi paket yang telah usang.</p>
 
 ##### `yarn outdated` [](#toc-yarn-outdated){#toc-yarn-outdated.toc}
 

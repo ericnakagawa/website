@@ -4,7 +4,7 @@ id: docs_cli_clean guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Cleans and removes unnecessary files from package dependencies.</p>
+<p class="lead">Membersihkan dan menghilangkan file yang tidak perlu dari dependensi paket yang terinstal.</p>
 
 ##### `yarn clean` [](#toc-yarn-clean){#toc-yarn-clean.toc}
 

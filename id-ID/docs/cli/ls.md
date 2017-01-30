@@ -4,7 +4,7 @@ id: docs_cli_ls guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">List installed packages.</p>
+<p class="lead">Menampilkan daftar paket yang terinstal.</p>
 
 ##### `yarn list` [](#toc-yarn-ls){#toc-yarn-ls.toc}
 

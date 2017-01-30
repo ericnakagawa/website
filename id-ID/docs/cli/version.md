@@ -6,7 +6,7 @@ id: docs_cli_version guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Updates the package version.</p>
+<p class="lead">Memperbarui versi paket.</p>
 
 ### Updating versions [](#toc-updating-versions){#toc-updating-versions.toc}
 

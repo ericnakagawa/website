@@ -6,7 +6,7 @@ id: docs_creating_a_package guide: docs_creating_a_package layout: guide
 
 {% include vars.html %}
 
-A **package** is a directory with some code and a `package.json` file that provides information to Yarn about your package.
+Sebuah **paket** adalah direktori yang berisi kode beserta file `package.json` yang berisi informasi tentang paket tersebut.
 
 Most packages use some kind of version control system. The most common one is git but Yarn doesn't mind whatever one you choose to use. For this guide, our examples are going to use git.
 

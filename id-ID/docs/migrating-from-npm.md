@@ -4,7 +4,7 @@ id: docs_migrating_from_npm guide: docs_migrating_from_npm layout: guide
 
 * * *
 
-Migrating from npm should be a fairly easy process for most users. Yarn can consume the same `package.json` format as npm, and can install any package from the npm registry.
+Migrasi dari npm cukup mudah. Yarn dapat menggunakan file `package.json` yang sudah ada, dan menginstal paket dari registri npm.
 
 If you want to try Yarn out on your existing npm project, just try running:
 

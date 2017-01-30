@@ -4,7 +4,7 @@ id: docs_version_control guide: docs_yarn_workflow layout: guide additional_read
 
 * * *
 
-To have people successfully develop or use your package, you need to ensure that all the necessary files are checked into your source control system.
+Agar pengembang lain dapat menggunakan paket yang anda buat, anda perlu memastikan bahwa semua file yang diperlukan telah dimasukkan kedalam sebuah sistem source control yang anda pakai.
 
 ### Required Files [](#toc-required-files){#toc-required-files.toc}
 

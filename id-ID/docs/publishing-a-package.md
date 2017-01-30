@@ -4,7 +4,7 @@ id: docs_publishing_a_package guide: docs_creating_a_package layout: guide
 
 * * *
 
-In order to share your package with other developers around the world through Yarn, you'll first need to publish it.
+Untuk dapat membagikan paket anda dengan pengembang lain di seluruh dunia, anda perlu untuk menerbitkannya terlebih dahulu.
 
 When you publish a package with Yarn it goes onto the [npm registry](https://www.npmjs.com/) which is used to distribute packages globally.
 

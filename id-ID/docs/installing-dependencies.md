@@ -4,7 +4,7 @@ id: docs_installing_dependencies guide: docs_yarn_workflow layout: guide additio
 
 * * *
 
-If you have just checked out a package from [version control](./version-control), you will need to install those dependencies.
+Apabila anda baru saja mendapatkan paket dari [version control](./version-control), anda perlu untuk menginstal dependensinya.
 
 > If you are [adding dependencies](./managing-dependencies#toc-adding-a-dependency) for your project, then those dependencies are automatically installed during that process.
 

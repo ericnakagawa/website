@@ -1,10 +1,10 @@
-[Travis CI](https://travis-ci.org/) detects the use of Yarn by the presence of `yarn.lock` in the repository root. If it is available, Travis CI will install `yarn` if necessary, and execute `yarn` as the default install command.
+[Travis CI](https://travis-ci.org/) mendeteksi penggunaan Yarn dengan adanya `yarn.lock` pada root repository. Jika tersedia, Travis CI akan menginstall `yarn` jika diperlukan, dan mengeksekusi `yarn` sebagai perintah instalasi default.
 
-If your install phase requires more, it is necessary to install Yarn yourself until it is pre-installed on build images.
+Jika anda membutuhkan fase instalasi yang lebih spesifik, disarankan untuk melakukan instalasi Yarn secara mandiri hingga Yarn tersedia di build images yang anda pakai.
 
-There are a couple of ways to install Yarn; one with `sudo`, the other without. If you are using the [container-based environment](https://docs.travis-ci.com/user/ci-environment/#Virtualization-environments) use the latter.
+Ada beberapa cara untuk menginstal Yarn; dengan atau tanpa `sudo`. Apabila anda menggunakan [container-based environment](https://docs.travis-ci.com/user/ci-environment/#Virtualization-environments), gunakan pilihan kedua.
 
-## `sudo`-enabled builds
+## build menggunakan `sudo`
 
 ```yml
 sudo: required
@@ -23,7 +23,7 @@ cache:
 
 ## container-based builds
 
-Container-based builds do not have the `sudo` privilege, so they must rely on other means to install. For example:
+Container-based builds tidak memiliki kemampuan untuk melakukan `sudo`, sehingga harus menggunakan cara lain untuk menginstal:
 
 ```yaml
 sudo: false

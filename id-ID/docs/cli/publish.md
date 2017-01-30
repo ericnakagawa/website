@@ -4,17 +4,17 @@ id: docs_cli_publish guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Publishes a package to the npm registry.</p>
+<p class="lead">Menerbitkan sebuah paket ke registri npm.</p>
 
-Once a package is published, you can never modify that specific version, so take care before publishing.
+Setelah paket diterbitkan, anda tidak diperkenankan untuk mengubah versi terkait, maka berhati-hatilah sebelum menerbitkan paket anda.
 
 ##### `yarn publish` [](#toc-yarn-publish){#toc-yarn-publish.toc}
 
 Publishes the package defined by the `package.json` in the current directory.
 
-##### `yarn publish [tarball]` [](#toc-yarn-publish-tarball){#toc-yarn-publish-tarball.toc}
+##### `yarn publish [berkas]` [](#toc-yarn-publish-tarball){#toc-yarn-publish-tarball.toc}
 
-Publishes the package defined by a `.tgz` gzipped tarball.
+Menerbitkan paket yang didefinisikan oleh sebuah berkas gzip `.tgz`.
 
 ##### `yarn publish [folder]` [](#toc-yarn-publish-folder){#toc-yarn-publish-folder.toc}
 

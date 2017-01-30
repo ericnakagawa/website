@@ -4,7 +4,7 @@ id: docs_cli_owner guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Manage package owners.</p>
+<p class="lead">Mengelola pemilik paket.</p>
 
 ### What is a package owner? [](#toc-what-is-a-package-owner){#toc-what-is-a-package-owner.toc}
 

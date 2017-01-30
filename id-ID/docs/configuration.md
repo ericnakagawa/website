@@ -6,7 +6,7 @@ id: docs_configuration_index guide: docs_configuration layout: guide
 
 <!-- [TODO: Rewrite and accommodate for other configuration files] -->
 
-## Configuring your package [](#toc-configuring-your-package){#toc-configuring-your-package.toc}
+## Mengkonfigurasi paket anda [](#toc-configuring-your-package){#toc-configuring-your-package.toc}
 
 Yarn looks for `package.json` files to identify each package and configure the behavior of yarn while running inside that package.
 

@@ -1,6 +1,6 @@
-Yarn is [preinstalled on AppVeyor](https://www.appveyor.com/updates/2016/11/01/), so you don't need to do anything extra in order to use it as part of your build.
+Yarn [telah terpasang di AppVeyor](https://www.appveyor.com/updates/2016/11/01/), sehingga Anda tidak perlu melakukan apapun untuk dapat menggunakan Yarn di build step anda.
 
-To speed up your builds, you can cache Yarn's cache folder by adding this to your `appveyor.yml`:
+Untuk mempercepat waktu build, anda dapat melakukan cache (tembolok) untuk paket yang telah diinstal Yarn dengan menambahkan perintah berikut kedalam file `appveyor.yml` proyek anda:
 
 ```yml
 cache:

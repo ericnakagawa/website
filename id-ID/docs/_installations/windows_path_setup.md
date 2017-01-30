@@ -1,3 +1,3 @@
-You will need to set up the `PATH` environment variable in your terminal to have access to Yarn's binaries globally.
+Anda perlu untuk mengatur environment variable `PATH` untuk dapat menjalankan Yarn.
 
-Add `set PATH=%PATH%;C:\.yarn\bin` to your shell environment.
+Tambahkan `set PATH=%PATH%;C:\.yarn\bin` ke environment variable anda.

@@ -1,6 +1,6 @@
-[Semaphore](https://semaphoreci.com/) has Yarn pre-installed for all supported Node.js versions, and no user interaction is required for the Yarn cache to work.
+[Semaphore](https://semaphoreci.com/) sudah mendukung Yarn untuk semua versi Node.js, anda tidak perlu melakukan konfigurasi tambahan untuk dapat menggunakannya.
 
-To assure that your local Yarn version matches the one on Semaphore, add the lines below to your setup commands, in Project Settings.
+Untuk memastikan bahwa versi Yarn anda cocok dengan yang ada di Semaphore, tambahkan baris berikut ke perintah konfigurasi Anda di pengaturan proyek.
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -

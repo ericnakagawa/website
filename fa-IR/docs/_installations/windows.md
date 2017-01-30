@@ -1,23 +1,23 @@
-### Windows
+### ویندوز
 
-There are two options for installing Yarn on Windows.
+دو گزینه برای نصب Yarn بر روی ویندوز وجود دارد.
 
-#### Download the installer
+#### ۱. دانلود و نصب
 
-This will give you a `.msi` file that when run will walk you through installing Yarn on Windows.
+از این روش شما یک فایل `.msi` دریافت می‌کنید که با اجرای آن Yarn بروی ویندوز شما نصب می‌گردد.
 
-If you use the installer you will first need to install [Node.js](https://nodejs.org/).<a class="btn btn-primary" href="/latest.msi">Download Installer</a>#### Install via Chocolatey
+اگر از این روش استفاده می‌کنید نیاز است قبل از آن [Node.js](https://nodejs.org/) را نصب کنید.<a class="btn btn-primary" href="/latest.msi">دانلود فایل نصاب</a>#### ۲. نصب از طریق Chocolatey
 
-[Chocolatey](https://chocolatey.org/) is a package manager for Windows, you can install Chocolatey by following [these instructions](https://chocolatey.org/install).
+[ Chocolatey](https://chocolatey.org/) یک مدیر بسته برای ویندوز است که می‌توانید آن را از [ اینجا](https://chocolatey.org/install) نصب کنید.
 
-Once you have Chocolatey installed, you may install yarn by running the following code in your console:
+بعد از اینکه Chocolatey را نصب کردید با اجرای کد زیر را در کنسول ویندوز، می‌توانید Yarn را نصب کنید:
 
 ```sh
 choco install yarn
 ```
 
-This will also ensure that you have [Node.js](https://nodejs.org/) installed.
+در صورت عدم وجود [Node.js](https://nodejs.org/) بروی ویندوز شما، این دستور آن را نیز نصب می‌کند.
 
-#### Notice
+#### توجه
 
-Please whitelist your project folder and the Yarn cache directory (%LocalAppData%\Yarn) in your antivirus software, otherwise installing packages will be significantly slower as every single file will be scanned as it's written to disk.
+لطفاً پوشه‌ی پروژه‌ی خود و همچنین پوشه‌ی کش (%LocalAppData%\Yarn) مدیر بسته‌ی Yarn را در لیست سفید آنتی‌ویروس خود قرار دهید. در غیر اینصورت نصب بسته‌ها به طور قابل‌توجه‌ای کند می‌شود، چرا که هر یک از فایل‌ها قبل از نوشته شدن بر روی هارددیسک توسط آنتی‌ویروس بررسی می‌شود.

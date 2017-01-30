@@ -6,7 +6,7 @@ id: docs_cli_index guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-Yarn provides a rich set of command-line commands to help you with various aspects of your Yarn package, including installation, administration, publishing, etc.
+Yarn menyediakan banyak perintah command-line untuk membantu anda dalam berbagai aspek, termasuk instalasi, administrasi, dukugan penerbitan paket, dan lain lain.
 
 While all of the available commands are provided here, in alphabetical order, some of the more popular commands are:
 

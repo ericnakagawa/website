@@ -6,7 +6,7 @@ id: docs_cli_bin guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-Displays the location of the yarn `bin` folder.
+Menampilkan lokasi folder `bin` dari Yarn.
 
 ##### `yarn bin` [](#toc-yarn-bin){#toc-yarn-bin.toc}
 

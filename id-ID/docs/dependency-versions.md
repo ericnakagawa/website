@@ -6,13 +6,13 @@ id: docs_dependency_versions guide: docs_dependencies description: docs_dependen
 
 ## Semantic Versioning [](#toc-semantic-versioning){#toc-semantic-versioning.toc}
 
-Packages in Yarn follow [Semantic Versioning](http://semver.org/), also known as "semver". When you install a new package from the registry it will be added to your `package.json` with a semver version range.
+Paket di Yarn mengikuti konsep [Semantic Versioning](http://semver.org/), yang juga dikenal dengan "semver". Ketika anda menginstal sebuah paket baru dari registry, Yarn akan menambahkannya kedalam file `package.json` berikut versi semver yang valid.
 
-These versions are broken down into `major.minor.patch` and looks like one of these: `3.14.1`, `0.42.0`, `2.7.18`. Each part of the version gets incremented at various times:
+Versi ini dipecah menjadi `major.minor.patch` dan tampak seperti berikut: `3.14.1`, `0.42.0`, `2.7.18`. Tiap bagiannya memiliki konsep penambahan sebagai berikut:
 
-- Increment `major` when you make a **breaking** or **incompatible** change to the API of a package.
-- Increment `minor` when you add **new functionality** while staying **backwards-compatible**
-- Increment `patch` when you make **bug fixes** while staying **backwards-compatible**
+- Tambahkan `major` ketika anda melakukan **perubahan major** atau **perubahan yang inkompatibel** di level API sebuah paket.
+- Tambahkan versi `minor` ketika anda menambahkan **fungsionalitas atau API baru** tanpa mengubah **fungsionalitas atau API yang sudah ada**
+- Naikkan versi `patch` ketika anda melakukan **perbaikan bug** tanpa mengubah **fungsi atau API yang sudah ada**
 
 > **Note:** There are also sometimes "labels" or "extensions" to the semver format that mark things like pre-releases or betas (e.g. `2.0.0-beta.3`)
 

@@ -4,7 +4,7 @@ id: docs_creating_a_project guide: docs_yarn_workflow layout: guide
 
 * * *
 
-It doesn't matter if you have an existing repository/directory of code, or if you are starting a completely new project, adding Yarn works the same way every time.
+Tidak masalah jika Anda memiliki direktori repositori kode atau jika Anda memulai sebuah proyek yang benar-benar baru, menambahkan Yarn kedalam proyek anda selalu bekerja dengan cara yang sama setiap waktu.
 
 In your terminal/console in the directory that you want to add Yarn (which should almost always be the root of your project), run the following command:
 

@@ -4,7 +4,7 @@ id: docs_cli_config guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Manages the yarn configuration files.</p>
+<p class="lead">Mengelola file konfigurasi Yarn.</p>
 
 ##### `yarn config set <key> <value> [-g|--global]` [](#toc-yarn-config-set-g-global){#toc-yarn-config-set-g-global.toc}
 

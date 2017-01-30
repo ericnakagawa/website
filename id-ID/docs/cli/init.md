@@ -6,7 +6,7 @@ id: docs_cli_init guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Interactively creates or updates a package.json file.</p>
+<p class="lead">Membuat atau mengubah file package.json secara interaktif.</p>
 
 ##### `yarn init` [](#toc-yarn-init){#toc-yarn-init.toc}
 

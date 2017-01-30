@@ -1,8 +1,8 @@
 ### Windows
 
-There are two options for installing Yarn on Windows.
+Ada dua pilihan untuk menginstal Yarn pada sistem operasi Windows.
 
-#### Download the installer
+#### Mengunduh pemasang
 
 This will give you a `.msi` file that when run will walk you through installing Yarn on Windows.
 

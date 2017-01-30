@@ -6,11 +6,11 @@ id: docs_cli_upgrade guide: docs_cli layout: guide additional_reading_tags: ["cl
 
 {% include vars.html %}
 
-<p class="lead">Upgrades packages to their latest version based on the specified range.</p>
+<p class="lead">Meningkatkan paket yang sudah diinstal ke versi yang terbaru, berdasarkan jarak versi yang ditentukan.</p>
 
 ##### `yarn upgrade` [](#toc-yarn-upgrade){#toc-yarn-upgrade.toc}
 
-This command updates all dependencies to their latest version based on the version range specified in the `package.json` file. The `yarn.lock` file will be recreated as well.
+Perintah ini akan meningkatkan semua paket yang sudah diinstal ke versi yang terbaru berdasarkan jarak versi yang ditentukan di `package.json`. File `yarn.lock` akan diperbarui juga.
 
 ```sh
 yarn upgrade
@@ -36,7 +36,7 @@ yarn upgrade
 
 ##### `yarn upgrade [package]` [](#toc-yarn-upgrade-package){#toc-yarn-upgrade-package.toc}
 
-This upgrades a single named package to the version specified by the `latest` tag (potentially upgrading the package across major versions).
+Perintah ini akan meningkatkan paket yang ditentukan ke versi yang terbaru. Versi yang terbaru adalah versi yang di tandai `latest` (ada kemungkinan perintah ini akan meningkatkan versi utama paket tersebut).
 
 ```sh
 yarn upgrade d3-scale

@@ -6,7 +6,7 @@ id: docs_cli_global guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Install packages globally on your operating system.</p>
+<p class="lead">Instal paket secara global pada sistem operasi Anda.</p>
 
 ##### `yarn global` [](#toc-yarn-global){#toc-yarn-global.toc}
 

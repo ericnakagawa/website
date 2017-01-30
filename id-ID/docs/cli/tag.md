@@ -4,7 +4,7 @@ id: docs_cli_tag guide: docs_cli description: docs_cli_tag_description layout: g
 
 * * *
 
-<p class="lead">Add, remove, or list tags on a package.</p>
+<p class="lead">Menambah, menghapus, atau menampilkan daftar tag untuk sebuah paket.</p>
 
 ### What are tags? [](#toc-what-are-tags){#toc-what-are-tags.toc}
 

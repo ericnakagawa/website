@@ -6,7 +6,7 @@ id: docs_cli_logout guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Clear registry username and email.</p>
+<p class="lead">Menghapus username dan email dari registri.</p>
 
 ##### `yarn logout` [](#toc-yarn-logout){#toc-yarn-logout.toc}
 

@@ -1,87 +1,73 @@
 ---
 site_title: Yarn
-site_description: Fast, reliable, and secure dependency management.
-site_nav_getting_started: Getting Started
-site_nav_documentation: Docs
-site_nav_packages: Packages
+site_description: Manajemen dependensi yang cepat, handal, dan aman.
+site_nav_getting_started: Mulai Menggunakan
+site_nav_documentation: Dokumentasi
+site_nav_packages: Paket
 site_nav_blog: Blog
-site_bsd_license: Distributed under BSD License
-site_code_of_conduct: Code of Conduct
-site_edit_this_page: Edit this page
-blog_title: Yarn Blog
-guide_additional_reading: Additional Reading
-iframe_github_stars: GitHub Stars
-homepage_tagline: Fast, reliable, and secure dependency management.
-homepage_feature_fast_title: Ultra Fast.
+site_bsd_license: Didistribusikan di bawah lisensi BSD
+site_code_of_conduct: Kode Etik
+site_edit_this_page: Sunting Halaman ini
+blog_title: Blog Yarn
+guide_additional_reading: Bacaan Tambahan
+iframe_github_stars: Github Stars
+homepage_tagline: Manajemen dependensi yang cepat, handal, dan aman.
+homepage_feature_fast_title: Cepat.
 homepage_feature_fast_description: |
-  Yarn caches every package it downloads so it never needs to download it again. It also
-  parallelizes operations to maximize resource utilization so install times are
-  faster than ever.
-homepage_feature_fast_image_alt: Generic placeholder image
-homepage_feature_secure_title: Mega Secure.
+  Yarn melakukan proses tembolok (caching) pada setiap paket yang sudah diunduh, sehingga tidak perlu melakukan unduh ulang. Yarn juga bekerja secara paralel untuk mempercepat proses instalasi paket.
+homepage_feature_fast_image_alt: Gambar pengganti generik
+homepage_feature_secure_title: Sangat Aman.
 homepage_feature_secure_description: |
-  Yarn uses checksums to verify the integrity of every installed package
-  before its code is executed.
-homepage_feature_secure_image_alt: Generic placeholder image
-homepage_feature_reliable_title: Super Reliable.
+  Yarn menggunakan checksum untuk memverifikasi integritas dari setiap paket yang terinstalasi sebelum kode dari paket tersebut dijalankan.
+homepage_feature_secure_image_alt: Gambar pengganti generik
+homepage_feature_reliable_title: Dapat Diandalkan.
 homepage_feature_reliable_description: |
-  Using a detailed, but concise, lockfile format, and a deterministic algorithm
-  for installs, Yarn is able to guarantee that an install that worked on one
-  system will work exactly the same way on any other system.
-homepage_feature_reliable_image_alt: Generic placeholder image
-homepage_c2a_text: What are you waiting for?
-homepage_c2a_button: Get Started
-homepage_install_button: Install Yarn
-homepage_featurette_offline_title: Offline Mode
+  Dengan menggunakan algoritma deterministik dan format lockfile yang detail namun ringkas, Yarn mampu menjamin bahwa instalasi yang bekerja pada sebuah sistem akan bekerja persis dengan cara yang sama pada sistem lainnya.
+homepage_feature_reliable_image_alt: Gambar pengganti generik
+homepage_c2a_text: Apa lagi yang anda tunggu?
+homepage_c2a_button: Mulai Menggunakan
+homepage_install_button: Instalasi Yarn
+homepage_featurette_offline_title: Mode Offline
 homepage_featurette_offline_description: |
-  If you've installed a package before, you can install it again without
-  any internet connection.
-homepage_featurette_deterministic_title: Deterministic
+  Jika Anda pernah menginstal paket sebelumnya, Anda dapat menginstalnya kembali tanpa koneksi internet.
+homepage_featurette_deterministic_title: Deterministik
 homepage_featurette_deterministic_description: |
-  The same dependencies will be installed the same exact way across every
-  machine regardless of install order.
-homepage_featurette_network_performance_title: Network Performance
+  Dependensi yang sama akan diinstal dengan cara yang persis sama di setiap mesin lain tanpa memperdulikan urutan instalasi.
+homepage_featurette_network_performance_title: Kinerja Jaringan
 homepage_featurette_network_performance_description: |
-  Yarn efficiently queues up requests and avoids request waterfalls in order
-  to maximize network utilization.
-homepage_featurette_npm_title: Same Packages
+  Yarn secara efektif akan memaksimalkan pemanfaatan jaringan saat anda melakukan instalasi paket.
+homepage_featurette_npm_title: Paket yang sama
 homepage_featurette_npm_description: |
-  Install any package from npm and keep your package workflow
-  the same.
-homepage_featurette_network_resillience_title: Network Resilience
+  Pasang tiap paket dari npm dan lakukan semuanya seperti biasa.
+homepage_featurette_network_resillience_title: Ketahanan Jaringan
 homepage_featurette_network_resillience_description: |
-  A single request failing won't cause an install to fail. Requests are retried
-  upon failure.
-homepage_featurette_flat_mode_title: Flat Mode
+  Satu request yang gagal tidak akan membuat pemasangan paket menjadi gagal. Yarn akan mengulangnya kembali saat terjadi kegagalan.
+homepage_featurette_flat_mode_title: Mode Datar
 homepage_featurette_flat_mode_description: |
   Resolve mismatching versions of dependencies to a single version to avoid
   creating duplicates.
-docs_getting_started_title: Getting Started
+docs_getting_started_title: Mulai Menggunakan
 docs_getting_started_description: |
-  Never used a package manager before or just new to Yarn? Let's get you up and
-  running in just a couple of minutes.
-docs_index: Documentation
-docs_getting_started: Getting Started
-docs_install: Installation
-docs_usage: Usage
-docs_yarn_workflow_title: The Yarn Workflow
+  Belum pernah menggunakan paket manajer sebelumnya, atau anda baru kenal dengan Yarn? Mari kita mengenalnya dalam waktu yang singkat.
+docs_index: Dokumentasi
+docs_getting_started: Mulai Menggunakan
+docs_install: Instalasi
+docs_usage: Penggunaan
+docs_yarn_workflow_title: Alur kerja Yarn
 docs_yarn_workflow_description: |
-  How do I use Yarn? There are basic workflows for both creating and consuming
-  Yarn packages that will help you get productive quickly.
-docs_yarn_workflow: The Yarn Workflow
-docs_creating_a_project: Creating a new project
-docs_managing_dependencies: Managing dependencies
-docs_installing_dependencies: Installing dependencies
-docs_version_control: Working with version control
-docs_cli_title: CLI Commands
+  Bagaimana cara menggunakan Yarn? Berikut beberapa panduan dasar untuk menciptakan dan menggunakan paket yang akan membantu anda.
+docs_yarn_workflow: Alur kerja Yarn
+docs_creating_a_project: Membuat sebuah proyek baru
+docs_managing_dependencies: Mengelola dependensi
+docs_installing_dependencies: Menginstal dependensi
+docs_version_control: Bekerja dengan version control
+docs_cli_title: Perintah CLI
 docs_cli_description: |
-  Yarn is executed through a rich set of commands allowing package
-  installation, administration, publishing, and more.
-docs_cli_index: CLI Introduction
+  Yarn dijalankan melalui serangkaian perintah yang intuitif yang memungkinkan instalasi paket, administrasi paket, penerbitan paket, dan banyak lagi.
+docs_cli_index: Pengenalan CLI
 docs_cli_add: yarn add
 docs_cli_add_description: |
-  When you want to use another package, you first need to add it to
-  your dependencies. Running `yarn add` installs it into your project.
+  Saat anda ingin menggunakan paket lain, Anda perlu menambahkannya ke dalam daftar dependensi proyek. Gunakan perintah `yarn add` untuk menambahkan paket kedalam proyek anda.
 docs_cli_bin: yarn bin
 docs_cli_cache: yarn cache
 docs_cli_check: yarn check
@@ -106,32 +92,29 @@ docs_cli_run: yarn run
 docs_cli_self_update: yarn self-update
 docs_cli_tag: yarn tag
 docs_cli_tag_description: |
-  Tags are a way of publishing versions of your package with a label.
-  Users of your package can install that instead of a version number.
+  Tags adalah sebuah cara untuk menerbitkan versi paket dengan label tertentu. Pemakai paket anda akan dapat menginstal label tersebut dibandingkan menginstal versi paket tertentu.
 docs_cli_team: yarn team
 docs_cli_test: yarn test
 docs_cli_unlink: yarn unlink
 docs_cli_upgrade: yarn upgrade
 docs_cli_version: yarn version
 docs_cli_why: yarn why
-docs_migrating_from_npm_title: Migrating from npm client
+docs_migrating_from_npm_title: Migrasi dari manajer paket npm
 docs_migrating_from_npm_description: |
-  Yarn interops directly with many features of npm, including its package
-  metadata format, allowing for a painless migration.
-docs_migrating_from_npm: Migrating from npm
-docs_creating_a_package_title: Creating a Package
+  Yarn bekerja secara langsung dengan banyak fitur dari npm, termasuk format metadata paket yang dipakai, sehingga anda dapat melakukan migrasi dengan mudah.
+docs_migrating_from_npm: Migrasi dari manajer paket npm
+docs_creating_a_package_title: Menciptakan sebuah paket
 docs_creating_a_package_description: |
-  Creating and publishing a yarn package can be done with just a few commands
-  and configuration settings, leaving you to focus on your actual code.
-docs_creating_a_package: Creating a Package
+  Menciptakan dan penerbitan paket Yarn dapat dilakukan dengan mudah, sehingga anda hanya perlu fokus dengan apa yang ingin anda buat.
+docs_creating_a_package: Menciptakan sebuah paket
 docs_publishing_a_package: Publishing a Package
 docs_dependencies_title: Dependencies & Versions
 docs_dependencies_description: |
   Using Yarn you'll be working with dependencies all the time. Let's go through
   the different types and versions of dependencies.
-docs_dependencies: Dependencies and versions
-docs_dependency_types: Types of dependencies
-docs_dependency_versions: Versions of dependencies
+docs_dependencies: Dependensi dan versi
+docs_dependency_types: Jenis-jenis dependensi
+docs_dependency_versions: Versi-versi dependensi
 docs_dependency_versions_description: |
   Packages in Yarn follow Semantic Versioning, also known as “semver”. When you
   install a new package it will be added with a semver version range.
@@ -146,7 +129,7 @@ yarn_organization_description: |
   The Yarn organization is a collaboration of many companies and
   individuals dedicated to improving your package management experience.
 organization: Organization
-code_of_conduct: Code of Conduct
+code_of_conduct: Kode Etik
 contributing: Contributing
 translations: Translations
 release_process: Release Process
@@ -169,7 +152,7 @@ install_select_platform: Select your platform above
 install_os_mac: macOS
 install_os_windows: Windows
 install_os_linux: Linux
-install_os_alternatives: Alternatives
+install_os_alternatives: Alternatif
 install_test: "Test that Yarn is installed by running:"
 install_problems_title: Problems?
 install_problems_description: >
@@ -194,11 +177,11 @@ install_file:
   js-legacy: Standalone JS (Node < 4.0)
   msi: Windows installer
   rpm: RPM
-  tar: Tarball
+  tar: Berkas
 docs_install_ci: Continuous Integration
 ci_intro: >
-  Yarn can easily be used in various continuous integration systems. To speed up builds, the Yarn cache directory can be saved across builds.
-ci_select_platform: Select the continuous integration system you're using from the options above
+  Yarn dapat dengan mudah digunakan di banyak sistem Continuous Integration. Untuk mempersingkat waktu, Direktori cache Yarn dapat disimpan untuk digunakan kembali di proses build lain.
+ci_select_platform: Pilih Continuous Integration sistem yang saat ini anda pakai dari pilihan diatas
 ci_appveyor: AppVeyor
 ci_circle: CircleCI
 ci_codeship: Codeship

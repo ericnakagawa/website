@@ -4,7 +4,7 @@ id: docs_cli_generate_lock_entry guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Generates a lock file entry.</p>
+<p class="lead">Menghasilkan sebuah entri Lockfile.</p>
 
 ##### `yarn generate-lock-entry` [](#toc-yarn-generate-lock-entry){#toc-yarn-generate-lock-entry.toc}
 

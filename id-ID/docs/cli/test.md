@@ -4,7 +4,7 @@ id: docs_cli_test guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Runs the test script defined by the package.</p>
+<p class="lead">Menjalankan test script yang didefinisikan sebuah paket.</p>
 
 ##### `yarn test` [](#toc-yarn-test){#toc-yarn-test.toc}
 

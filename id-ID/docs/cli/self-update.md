@@ -4,7 +4,7 @@ id: docs_cli_self_update guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Updates Yarn to the latest version.</p>
+<p class="lead">Perbarui Yarn ke versi terbaru.</p>
 
 ##### `yarn self-update` [](#toc-yarn-self-update){#toc-yarn-self-update.toc}
 

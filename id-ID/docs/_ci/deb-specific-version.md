@@ -1,3 +1,3 @@
-It is recommended that you lock in a specific version of Yarn, so that all your builds use the same version of Yarn, and you can test new Yarn releases before switching over. You can do this by adding the version number to the `apt-get install` call:
+Disarankan untuk menggunakan versi Yarn yang sama pada setiap proyek anda, sehingga semua langkah build akan berjalan dengan versi Yarn yang seragam. Anda dapat melakukan uji coba versi Yarn baru sebelum melakukan migrasi dari versi lama ke versi baru. Anda dapat melakukannya dengan menambahkan nomor versi pada perintah `apt-get install`:
 
     sudo apt-get install -y -qq yarn={{site.latest_version}}-1

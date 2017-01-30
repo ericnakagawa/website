@@ -6,7 +6,7 @@ id: docs_cli_add guide: docs_cli layout: guide description: docs_cli_add_descrip
 
 {% include vars.html %}
 
-<p class="lead">Installs a package and any packages that it depends on.</p>
+<p class="lead">Menginstal sebuah paket dan paket lain yang merupakan dependensi dari paket tersebut.</p>
 
 ### Adding dependencies [](#toc-adding-dependencies){#toc-adding-dependencies.toc}
 
@@ -28,10 +28,10 @@ You can also specify packages from different locations:
 
   1. `yarn add package-name` installs the package from the [npm registry](https://www.npmjs.com/) unless you have specified another one in your `package.json`.
   2. `yarn add file:/path/to/local/folder` installs a package that is on your local file system. This is useful to test out other packages of yours that haven't been published to the registry.
-  3. `yarn add file:/path/to/local/tarball.tgz` installs a package from a gzipped tarball which could be used to share a package before publishing it.
+  3. perintah `yarn add file:/path/to/local/tarball.tgz` melakukan instalasi paket dari sebuah berkas gzip yang dapat digunakan untuk membagikan paket sebelum mempublikasikannya ke registry.
   4. `yarn add <git remote url>` installs a package from a remote git repository.
   5. `yarn add <git remote url>#<commit/tag>` installs a package from a remote git repository at specific git commit or git tag.
-  6. `yarn add https://my-project.org/package.tgz` installs a package from a remote gzipped tarball.
+  6. perintah `yarn add https://my-project.org/package.tgz` melakukan instalasi paket dari sebuah alamat jaringan.
 
 ### Caveats [](#toc-caveats){#toc-caveats.toc}
 

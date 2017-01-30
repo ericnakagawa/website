@@ -4,7 +4,7 @@ id: docs_cli_why guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">Show information about why a package is installed.</p>
+<p class="lead">Menampilkan informasi tentang mengapa sebuah paket diinstal.</p>
 
 ##### `yarn why <query>` [](#toc-yarn-why){#toc-yarn-why.toc}
 

@@ -1,6 +1,6 @@
 {{i18n.install_nightly_intro}}
 
-The easiest way of installing a nightly build is via our shell script:
+Cara paling mudah untuk menginstal nightly build adalah melalui shell script:
 
 ```sh
 wget https://yarnpkg.com/install.sh
@@ -16,4 +16,4 @@ echo "deb http://nightly.yarnpkg.com/debian/ nightly main" | sudo tee /etc/apt/s
 sudo apt-get update && sudo apt-get install yarn
 ```
 
-On Windows, the [Windows installer](https://nightly.yarnpkg.com/latest.msi) can be used.
+Pada Windows, anda dapat menggunakan [Windows installer](https://nightly.yarnpkg.com/latest.msi).

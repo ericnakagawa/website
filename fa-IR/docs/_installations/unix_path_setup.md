@@ -1,3 +1,3 @@
-You will need to set up the `PATH` environment variable in your terminal to have access to Yarn's binaries globally.
+برای اینکه بتوانید Yarn را به صورت مستقیم در ترمینال استفاده کنید (بدون تایپ مسیر فایل اجرایی) باید آن را به متغیر `PATH` ترمینال خود اضافه کنید.
 
-Add ``export PATH="$PATH:`yarn global bin`"`` to your profile (this may be in your `.profile`, `.bashrc`, `.zshrc`, etc.)
+<bdi> ``export PATH="$PATH:`yarn global bin`"``</bdi> را به فایل تنظیمات shell خود استفاده کنید، بسته به shell انتخابی شما این فایل ممکن است: <bdi> `.profile`, `.bashrc`, `.zshrc` </bdi> و یا فایل دیگری باشد.

@@ -6,7 +6,7 @@ id: docs_cli_run guide: docs_cli layout: guide
 
 {% include vars.html %}
 
-<p class="lead">Runs a defined package script.</p>
+<p class="lead">Menjalankan script yang didefinisikan oleh paket.</p>
 
 You may define [`scripts`]({{url_base}}/docs/package-json#toc-scripts) in your [`package.json`]({{url_base}}/docs/package-json) file.
 

@@ -1,15 +1,15 @@
 ### Debian/Ubuntu Linux
 
-On Debian or Ubuntu Linux, you can install Yarn via our Debian package repository. You will first need to configure the repository:
+Pada Debian atau Ubuntu, anda dapat menginstal Yarn melalui repositori package Debian. Pertama, anda perlu mengkonfigurasi repositorinya:
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 
-On Ubuntu 14.04 and Debian Stable, you will also need to configure [the NodeSource repository](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) to get a new enough version of Node.js (Debian Testing and Ubuntu 16.04 come packaged with a sufficient version of Node.js, so this step is not required in those environments)
+Pada Ubuntu 14.04 dan Debian Stable, anda juga perlu mengkonfigurasi [repositori NodeSource](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) untuk mendapatkan versi Node.js yang memadai (Debian Testing dan Ubuntu 16.04 sudah dikemas dengan versi Node.js yang memadai, sehingga langkah ini tidak dibutuhkan untuk environment tersebut)
 
-Then you can simply:
+Kemudian anda dapat menjalankan:
 
 ```sh
 sudo apt-get update && sudo apt-get install yarn
@@ -17,19 +17,19 @@ sudo apt-get update && sudo apt-get install yarn
 
 ### CentOS / Fedora / RHEL
 
-On CentOS, Fedora and RHEL, you can install Yarn via our RPM package repository.
+Pada CentOS, Fedora dan RHEL, anda dapat menginstal Yarn melalui repositori RPM package.
 
 ```sh
 sudo wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
 ```
 
-If you do not already have Node.js installed, you should also configure [the NodeSource repository](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora):
+Jika anda belum menginstal Node.js, anda juga harus mengkonfigurasi [repositori NodeSource](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora):
 
 ```sh
 curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 ```
 
-Then you can simply:
+Kemudian anda dapat menjalankan:
 
 ```sh
 sudo yum install yarn
@@ -37,9 +37,9 @@ sudo yum install yarn
 
 ### Arch Linux
 
-On Arch Linux yarn can be installed through the **AUR**.
+Pada Arch Linux, yarn dapat diinstal melalui **AUR**.
 
-If you use an [AUR Helper](https://wiki.archlinux.org/index.php/AUR_helpers) such as yaourt you can simply run:
+Jika anda menggunakan [AUR Helper](https://wiki.archlinux.org/index.php/AUR_helpers) seperti yaourt anda dapat menjalankan:
 
 ```sh
 yaourt -S yarn
@@ -47,12 +47,12 @@ yaourt -S yarn
 
 ### Solus
 
-On Solus, you can install yarn via the Solus repository.
+Pada Solus, anda dapat menginstal yarn melalui repositori Solus.
 
 ```sh
 sudo eopkg install yarn
 ```
 
-### Path Setup
+### Persiapan Path
 
 {% include_relative _installations/unix_path_setup.md %}

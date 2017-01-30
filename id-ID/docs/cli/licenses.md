@@ -4,7 +4,7 @@ id: docs_cli_licenses guide: docs_cli layout: guide
 
 * * *
 
-<p class="lead">List licenses for installed packages.</p>
+<p class="lead">Menampilkan daftar lisensi dari paket yang terinstal.</p>
 
 ##### `yarn licenses ls` [](#toc-yarn-licenses-ls){#toc-yarn-licenses-ls.toc}
 

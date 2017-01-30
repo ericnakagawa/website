@@ -1,24 +1,24 @@
-#### Installation Script
+#### نصب از طریق shell script
 
-One of the easiest ways to install Yarn on macOS and generic Unix environments is via our shell script. You can install Yarn by running the following code in your terminal:
+یکی از ساده‌ترین راه‌ها برای نصب Yarn بر روی محیط‌های یونیکسی (از جمله لینوکس و macOS) استفاده از shell script ما می‌باشد. می‌توانید به سادگی Yarn را با اجرای کد زیر در ترمینال خود نصب کنید:
 
 ```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
-The installation process includes verifying a GPG signature. [View the source on GitHub](https://github.com/yarnpkg/website/blob/master/install.sh)
+روند نصب شامل تایید یک GPG signature می‌باشد. [سورس اسکریپت را در گیت‌هاب ببینید.](https://github.com/yarnpkg/website/blob/master/install.sh)
 
-You can also specify a version by running the following code in your terminal:
+شما همچنین می‌توانید نسخه‌ی مورد نظر خود را با اجرای کد زیر در ترمینال مشخص کنید:
 
 ```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version [version]
 ```
 
-See [the releases](https://github.com/yarnpkg/yarn/releases) for possible versions.
+امکان نصب [این نسخه‌ها](https://github.com/yarnpkg/yarn/releases) وجود دارد.
 
-#### Manual Install via tarball
+#### نصب دستی با استفاده از فایل فشرده tarball
 
-You can install Yarn by [downloading a tarball]({{site.baseurl}}/latest.tar.gz) and extracting it anywhere.
+همچنین می‌توانید Yarn را با [دانلود فایل فشرده ]({{site.baseurl}}/latest.tar.gz) و استخراج آن در هر مسیری نصب کنید.
 
 ```sh
 cd /opt
