@@ -1,3 +1,0 @@
-Disarankan untuk menggunakan versi Yarn yang sama pada setiap proyek anda, sehingga semua langkah build akan berjalan dengan versi Yarn yang seragam. Anda dapat melakukan uji coba versi Yarn baru sebelum melakukan migrasi dari versi lama ke versi baru. Anda dapat melakukannya dengan menambahkan nomor versi pada perintah `apt-get install`:
-
-    sudo apt-get install -y -qq yarn={{site.latest_version}}-1
