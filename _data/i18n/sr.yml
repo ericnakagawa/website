@@ -1,0 +1,185 @@
+---
+site_title: Yarn
+site_description: Брзо, поуздано и сигурно управљање ослонцима.
+site_nav_getting_started: Први кораци
+site_nav_documentation: Документација
+site_nav_packages: Пакети
+site_nav_blog: Блог
+site_bsd_license: BSD дозвола за коришћење
+site_code_of_conduct: Правила понашања
+site_edit_this_page: Уреди ову страницу
+blog_title: Yarn блог
+guide_additional_reading: Пропратни садржај
+iframe_github_stars: GitHub звјездице
+homepage_tagline: Брзо, поуздано и сигурно управљање ослонцима.
+homepage_feature_fast_title: Изузетно брз.
+homepage_feature_fast_description: |
+  Yarn чува претходно преузете пакете да их не би поново преузимао. Такође, паралелним извршењем оптимално се искоришћавају рачунарски ресурси, па је вријеме инсталације краће него икад.
+homepage_feature_fast_image_alt: Генеричка илустрација
+homepage_feature_secure_title: Јако сигуран.
+homepage_feature_secure_description: |
+  Прије извршења Yarn користи суме за провјеру интегритета сваког инсталираног пакета.
+homepage_feature_secure_image_alt: Генеричка илустрација
+homepage_feature_reliable_title: Врло поуздан.
+homepage_feature_reliable_description: |
+  Pomoću deterministčkog algoritma i detaljne, a u isto vrijeme i koncizne ključne datoteke, Yarn omogućava da instalacija koja radi na jednom sistemu jednako radi na svim drugim.
+homepage_feature_reliable_image_alt: Генеричка илустрација
+homepage_c2a_text: Шта чекате?
+homepage_c2a_button: Први кораци
+homepage_install_button: Инсталирајте Yarn
+homepage_featurette_offline_title: Неповезан режим рада
+homepage_featurette_offline_description: |
+  Пакет који сте раније инсталирали можете инсталирати и уколико нисте повезани на Интернет.
+homepage_featurette_deterministic_title: Одређен низом узрока
+homepage_featurette_deterministic_description: |
+  Пакети на које се ослањате ће бити инсталирани на идентичан начин на свим рачунарима, без обзира на редослед инсталације.
+homepage_featurette_network_performance_title: Мрежне карактеристике
+homepage_featurette_network_performance_description: |
+  Yarn ефикасно ређа захтјеве да би у потпуности искористио мрежне ресурсе.
+homepage_featurette_npm_title: Исти пакети
+homepage_featurette_npm_description: |
+  Преузмите било који пакет са нпм-а и наставите да радите као што сте навикли.
+homepage_featurette_network_resillience_title: Мрежна еластичност
+homepage_featurette_network_resillience_description: |
+  Yarn поново шаље захтјеве у случају проблема, па прекид једног захтјева неће обуставити инсталацију.
+homepage_featurette_flat_mode_title: Раван режим
+homepage_featurette_flat_mode_description: |
+  Отклањање неодговарајућих верзија пакета на које се ослањате на јединствену верзију како би се избјегли дупликати.
+docs_getting_started_title: Први кораци
+docs_getting_started_description: |
+  Никад нисте користили управника пакетима или је Yarn за вас новина? Дозволите да вас за неколико минута поставимо на ноге.
+docs_index: Документација
+docs_getting_started: Први кораци
+docs_install: Инсталација
+docs_usage: Употреба
+docs_yarn_workflow_title: Начин рада са Yarn-ом
+docs_yarn_workflow_description: |
+  Како се користи Yarn? Постоје основни начини рада за креирање и употребу Yarn пакета који ће вам помоћи да брзо пређете на продуктиван рад.
+docs_yarn_workflow: Начин рада са Yarn-ом
+docs_creating_a_project: Креирање новог пројекта
+docs_managing_dependencies: Управљање ослонцима
+docs_installing_dependencies: Инсталација ослонаца
+docs_version_control: Рад са системима за управљање верзијама
+docs_cli_title: Komandni režim
+docs_cli_description: |
+  Yarn се извршава помоћу богатог скупа команди које омогућавају пакетима да их инсталирате, администрирате, објавите и друго.
+docs_cli_index: Увод у командни режим
+docs_cli_add: yarn add
+docs_cli_add_description: |
+  Када желите да користите неки пакет прво морате да га додате у ослонце. Извршењем команде `yarn add`, наведени пакет се инсталира.
+docs_cli_bin: yarn bin
+docs_cli_cache: yarn cache
+docs_cli_check: yarn check
+docs_cli_clean: yarn clean
+docs_cli_config: yarn config
+docs_cli_generate_lock_entry: yarn generate-lock-entry
+docs_cli_global: yarn global
+docs_cli_info: yarn info
+docs_cli_init: yarn init
+docs_cli_install: yarn install
+docs_cli_licenses: yarn licenses
+docs_cli_link: yarn link
+docs_cli_login: yarn login
+docs_cli_logout: yarn logout
+docs_cli_ls: yarn ls
+docs_cli_outdated: yarn outdated
+docs_cli_owner: yarn owner
+docs_cli_pack: yarn pack
+docs_cli_publish: yarn publish
+docs_cli_remove: yarn remove
+docs_cli_run: yarn run
+docs_cli_self_update: yarn self-update
+docs_cli_tag: yarn tag
+docs_cli_tag_description: |
+  Етикете су начин да објавите верзију вашег пакета са називом. Корисници који користе ваш пакет могу да га инсталирају користећи етикету, умјесто што би користили бројчану верзију.
+docs_cli_team: yarn team
+docs_cli_test: yarn test
+docs_cli_unlink: yarn unlink
+docs_cli_upgrade: yarn upgrade
+docs_cli_version: yarn version
+docs_cli_why: yarn why
+docs_migrating_from_npm_title: Прелазак са npm клијента
+docs_migrating_from_npm_description: |
+  Yarn је директна замјена за много особина npm-а, укључујући и описне датотеке, што омогућава безболан прелазак.
+docs_migrating_from_npm: Прелазак са npm
+docs_creating_a_package_title: Креирање пакета
+docs_creating_a_package_description: |
+  Коришћењем само неколико команди и подешавања можете да креирате и објавите пакет па вам то омогућава да се усредсредите на стварни код.
+docs_creating_a_package: Креирање пакета
+docs_publishing_a_package: Објављивање пакета
+docs_dependencies_title: Ослонци и верзије
+docs_dependencies_description: |
+  Користећи Yarn, стално ћете радити са ослонцима. Прођимо кроз различите типове и верзије ослонаца.
+docs_dependencies: Ослонци и верзије
+docs_dependency_types: Типови ослонаца
+docs_dependency_versions: Верзије ослонаца
+docs_dependency_versions_description: |
+  Yarn пакети прате семантичко верзирање, такозвани "semver". Када инсталирате нови пакет, он ће бити додат заједно са припадајућим semver опсегом.
+docs_configuration_title: Подешавање
+docs_configuration_description: |
+  Научите како да користите package.json да бисте подесили ваш пакет и ослонце
+docs_configuration_index: Подешавања
+docs_configuration_package_json: package.json
+docs_configuration_yarn_lock: yarn.lock
+yarn_organization_title: Yarn организација
+yarn_organization_description: |
+  Yarn организација је настала из сарадње између многих компанија и појединаца који су се посветили да вам побољшају доживљај управљања пакетима.
+organization: Организација
+code_of_conduct: Правила понашања
+contributing: Допринос
+translations: Преводи
+release_process: Процес издавања
+governance: Надзор
+users: Yarn корисници
+compare: Упоређење Yarn перформанси
+blog: Блог
+users_lead: Упознајте се са свим Yarn корисницима.
+users_description: >
+  Логотипе додају представници фирми или пројеката. Наведени могу, али и не морају да користе Yарн кроз њихове главне пројекте, али га дефинитивно негдје користе.
+users_add_prompt: Желите да додате своју фирму или пројекат?
+users_add_pr: Otvorite "pull request"
+users_add_requirements_image: >
+  Илустрације логотипа морају да буду димензија 500x200px (у размјери 2.5x1), пожељно у SVG формату, или PNG формату који је обрађен помоћу: svgo, ImageOptim или неког трећег алата за оптимизацију илустрација.
+users_add_requirements_logo: >
+  Молимо вас да за бијелу позадину користите верзију логотипа која је за то прилагођена.
+install_intro: >
+  Прије него почнете да користите Yarn, прво ћете морати да га инсталирате на ваш систем. Постоји више начина да то урадите:
+install_select_platform: Одаберите вашу системску платформу
+install_os_mac: macOS
+install_os_windows: Windows
+install_os_linux: Linux
+install_os_alternatives: Алтернативе
+install_test: "Команда за провјеру да ли је Yarn инсталиран:"
+install_problems_title: Имате проблем?
+install_problems_description: >
+  Уколико имате проблема са инсталацијом Yarn-а користећи ове методе, молимо вас да потражите рјешење кроз GitHub проблеме, или започните дискусију око вашег проблема.
+install_problems_search: Претражите постојеће проблеме
+install_problems_new_issue: Започните нову дискусију о проблему
+docs_nightly: Nightly верзије
+install_nightly_intro: >
+  Nightly верзије су последње верзије Yарн-а. Ове верзије су корисне за пробу нових верзија и особина, те за провјеру грешака или поправки које још нису изашле као верзија стабилног издања. Напомињемо да <strong>не гарантујемо за стабилност</strong> ових верзија.
+install_nightly_learn_more: Погледајте како да инсталирате nightly верзије
+nightly_latest_version: Последња верзија
+nightly_older_versions: Претходне верзије
+nightly_select_build_type: Odaberite tip građe iznad da pogledate starije revizije
+install_table_name: Назив
+install_table_type: Тип
+install_table_size: Величина
+install_table_date: Датум
+loading: Учитавање...
+install_file:
+  deb: Debian пакет
+  js: Аутономни JavaScript
+  js-legacy: Аутономни JavaScript (Node < 4.0)
+  msi: Инсталација за Windows
+  rpm: RPM
+  tar: Tarball
+docs_install_ci: Непрекидна интеграција
+ci_intro: >
+  Yarn лако може да се користи у разним системима за непрекидну интеграцију. Да бисмо убрзали градњу, Yarn директоријум раније преузетих пакета може да се дијели међу грађом.
+ci_select_platform: Одаберите систем за непрекидну интеграцију који користите
+ci_appveyor: AppVeyor
+ci_circle: CircleCI
+ci_codeship: Codeship
+ci_travis: Travis
+ci_semaphore: Semaphore

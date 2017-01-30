@@ -1,0 +1,185 @@
+---
+site_title: Yarn
+site_description: Швидке, надійне і безпечне управління залежностями.
+site_nav_getting_started: З чого розпочати
+site_nav_documentation: Документація
+site_nav_packages: Пакети
+site_nav_blog: Блог
+site_bsd_license: Розповсюджується під ліцензією BSD
+site_code_of_conduct: Правила поведінки
+site_edit_this_page: Редагувати сторінку
+blog_title: Блог Yarn
+guide_additional_reading: Для додаткового ознайомлення
+iframe_github_stars: GitHub зірки
+homepage_tagline: Швидке, надійне і безпечне управління залежностями.
+homepage_feature_fast_title: Ультра-швидкий.
+homepage_feature_fast_description: |
+  Yarn кешує кожен завантажений пакет, відповідно його ніколи не потрібно було завантажувати знов. Він також виконує операції паралельно, щоб максимально ефективно використовувати обчислювальні ресурси, тому власновлення є швидшим ніж будь-коли.
+homepage_feature_fast_image_alt: Загальний заповнювач зображення
+homepage_feature_secure_title: Мега-безпечний.
+homepage_feature_secure_description: |
+  Yarn перевіряє цілісність пакету використовуючи контрольні суми перед тим, як виконується код.
+homepage_feature_secure_image_alt: Загальний заповнювач зображення
+homepage_feature_reliable_title: Супер-надійний.
+homepage_feature_reliable_description: |
+  Завдяки детальному але лаконічному формату файлу блокування версій і детермінованому алгориту встановлення, Yarn гарантує, що встановлений набір пакетів на одній машині буде встановлений точно так само на будь-якій іншій.
+homepage_feature_reliable_image_alt: Загальний заповнювач зображення
+homepage_c2a_text: На що Ви чекаєте?
+homepage_c2a_button: Розпочати
+homepage_install_button: Встановити Yarn
+homepage_featurette_offline_title: Оффлайн режим
+homepage_featurette_offline_description: |
+  Якщо Ви вже встановили пакет, можете встановити його знов без звязку до інтернету.
+homepage_featurette_deterministic_title: Детермінованість
+homepage_featurette_deterministic_description: |
+  Одні і ті ж залежності будуть встановлені одинаково на кожній машині незалежно від порядку встановлення.
+homepage_featurette_network_performance_title: Якість роботи мережі
+homepage_featurette_network_performance_description: |
+  Yarn ефективно чергує запити і уникає одночасного їх виконання щоб забезпечити максимальне використання мережі.
+homepage_featurette_npm_title: Ідентичні пакети
+homepage_featurette_npm_description: |
+  Втановлюйте будь-які пакети з npm і збережіть попередні без змін.
+homepage_featurette_network_resillience_title: Стійкість мережі
+homepage_featurette_network_resillience_description: |
+  Збій в одному запиті не спричиняє збій всього встановлення. Запити повторюються після неуспішного встановлення.
+homepage_featurette_flat_mode_title: Неструктурований режим
+homepage_featurette_flat_mode_description: |
+  Розв'язує неспівпадіння версій залежностей до єдиної, щоб уникнути створення дублікатів.
+docs_getting_started_title: З чого розпочати
+docs_getting_started_description: |
+  Ніколи не використовували менеджер пакетів, чи просто новичок Yarn? Допоможемо ознайомитися і запустити його всього за декілька хвилин.
+docs_index: Документація
+docs_getting_started: З чого розпочати
+docs_install: Влановлення
+docs_usage: Використання
+docs_yarn_workflow_title: Робота з Yarn
+docs_yarn_workflow_description: |
+  Як використовувати Yarn? Є декілька основних засобів роботи для створення і використання пакетів Yarn, які помагають бути продуктивним швидко.
+docs_yarn_workflow: Робота з Yarn
+docs_creating_a_project: Створити новий проект
+docs_managing_dependencies: Керування залежностями
+docs_installing_dependencies: Встановлення залежностей
+docs_version_control: Робота з контролем версій
+docs_cli_title: CLI команди
+docs_cli_description: |
+  Yarn має швирокий набір команд, який доволяє встановлювати, адмініструвати, публікувати тощо.
+docs_cli_index: Вступ до CLI
+docs_cli_add: yarn add
+docs_cli_add_description: |
+  Якщо Ви хочете використати ще один пакет, спочатку потрібно додати його до списку залежностей. Виконання `yarn add` встановить його у Ваш проект.
+docs_cli_bin: yarn bin
+docs_cli_cache: yarn cache
+docs_cli_check: yarn check
+docs_cli_clean: yarn clean
+docs_cli_config: yarn config
+docs_cli_generate_lock_entry: yarn generate-lock-entry
+docs_cli_global: yarn global
+docs_cli_info: yarn info
+docs_cli_init: yarn init
+docs_cli_install: yarn install
+docs_cli_licenses: yarn licenses
+docs_cli_link: yarn link
+docs_cli_login: yarn login
+docs_cli_logout: yarn logout
+docs_cli_ls: yarn ls
+docs_cli_outdated: yarn outdated
+docs_cli_owner: yarn owner
+docs_cli_pack: yarn pack
+docs_cli_publish: yarn publish
+docs_cli_remove: yarn remove
+docs_cli_run: yarn run
+docs_cli_self_update: yarn self-update
+docs_cli_tag: yarn tag
+docs_cli_tag_description: |
+  Теги є способом публікацій версій Ваших пакетів з міткою. Користувачі Ваших пакетів можуть встановлювати їх замість номера версії.
+docs_cli_team: yarn team
+docs_cli_test: yarn test
+docs_cli_unlink: yarn unlink
+docs_cli_upgrade: yarn upgrade
+docs_cli_version: yarn version
+docs_cli_why: yarn why
+docs_migrating_from_npm_title: Міграція з npm клієнту
+docs_migrating_from_npm_description: |
+  Yarn безперервно співпрацює з різними функціями npm, включаючи формат метаданих пакетів, який дозволяє плавний перехід.
+docs_migrating_from_npm: Міграція з npm
+docs_creating_a_package_title: Створення пакету
+docs_creating_a_package_description: |
+  Створення і публікація Yarn пакету може бути зроблена з використанням всього декількох команд і конфігурації налаштувань, що дозволяє Вам сфокусуватися на самому коді.
+docs_creating_a_package: Створення пакету
+docs_publishing_a_package: Публікація пакету
+docs_dependencies_title: Залежності & Версії
+docs_dependencies_description: |
+  Ви будуте завжди використовувати залежності під час користування Yarn. Давайте пройдемося по ріхних типах і версія залежностей.
+docs_dependencies: Залежності і версії
+docs_dependency_types: Типи залежностей
+docs_dependency_versions: Версії залежностей
+docs_dependency_versions_description: |
+  Пакети в Yarn наслідують Семанчину систему версій, також відому як "semver". Коли Ви встановлюєте новий пакет, він буде доданий з системою версій semver.
+docs_configuration_title: Налаштування
+docs_configuration_description: |
+  Дізнайтеся як використовувати package.json для налаштувань Ваших пакетів і залежностей
+docs_configuration_index: Налаштування
+docs_configuration_package_json: package.json
+docs_configuration_yarn_lock: yarn.lock
+yarn_organization_title: Організація Yarn
+yarn_organization_description: |
+  Організація Yarn - це співпраця багатьох компаній і особистостей відданих покращенню досвіду написання Ваших пакетів.
+organization: Організація
+code_of_conduct: Правила поведінки
+contributing: Зробити внесок
+translations: Переклади
+release_process: Процес релізу
+governance: Керування
+users: Користувачі Yarn
+compare: Порівняти продуктивність Yarn
+blog: Блог
+users_lead: Познайомтеся з усіма користувачами Yarn.
+users_description: >
+  Логотипи є додані компанією або представниками проекту. Вони можуть використовувати або не використовувати Yarn як основну власність, але вони точно десь використовуються.
+users_add_prompt: Хочете додати свою компанію або проект?
+users_add_pr: Зробити "pull request"
+users_add_requirements_image: >
+  Лого повинно бути розміром 500x200px (2.5x1) SVG (бажано) or PGN оптимізоване зобрження з svgo ImageOptim або іншим оптимізатором зображень.
+users_add_requirements_logo: >
+  Будь ласка, використовуйте версію Вашого логотипу який виглядає гарно на білому фоні.
+install_intro: >
+  Перед початком використання Yarn, Вам потрібно встановити його на на Вашу систему. Існує декілька способів встановлення Yarn:
+install_select_platform: Оберіть платформу
+install_os_mac: macOS
+install_os_windows: Windows
+install_os_linux: Linux
+install_os_alternatives: Альтернативи
+install_test: "Щоб перевірити чи Yarn встановлений виконайте команду:"
+install_problems_title: Проблеми?
+install_problems_description: >
+  Якщо Ви не можете встановити Yarn використовуючи один з цих встановлювачів, будь-ласка перегляньте існуючі GitHub проблеми або відкрийте нову.
+install_problems_search: Пошук існуючої проблеми
+install_problems_new_issue: Відкрити нову проблему
+docs_nightly: Нічна збірка
+install_nightly_intro: >
+  Нічні збірки - це найновіша і найкраща версія Yarn, побудована використовуючи останній код Yarn. Нічні збірки є корисними щоб спробувати новий функціонал який не є опублікований як частина стабільної версії. Незважаючи на те, що ці зібрки <strong>не є гарантовано стабільними</strong> і можуть містити помилки.
+install_nightly_learn_more: Подивитися як встановити нічну збірку
+nightly_latest_version: Найновіша версія
+nightly_older_versions: Попередні версії
+nightly_select_build_type: Оберіть тип збірки щоб подивитися попередні версії
+install_table_name: Назва
+install_table_type: Тип
+install_table_size: Розмір
+install_table_date: Дата
+loading: Очікування...
+install_file:
+  deb: Пакет Debian
+  js: Автономний JS
+  js-legacy: Автономний JS (Node < 4.0)
+  msi: Встановлювач Windows
+  rpm: RPM
+  tar: Tarball
+docs_install_ci: Безперервна інтеграція
+ci_intro: >
+  Yarn може легко використовуватися разом з різними системами цілісності інтеграції. Щоб пришвидшити побудову, Yarn кеш-директорія може бути збережена в збірці.
+ci_select_platform: З можливиїх опцій зверху, оберіть систему цілісної інтеграції, яку Ви використовуєте
+ci_appveyor: AppVeyor
+ci_circle: CircleCI
+ci_codeship: Codeship
+ci_travis: Travis
+ci_semaphore: Semaphore

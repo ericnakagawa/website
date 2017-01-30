@@ -1,0 +1,189 @@
+---
+site_title: Yarn
+site_description: Manejo de dependencias rápido, confiable y seguro.
+site_nav_getting_started: Primeros pasos
+site_nav_documentation: Documentación
+site_nav_packages: Paquetes
+site_nav_blog: Blog
+site_bsd_license: Distribuido bajo licencia BSD
+site_code_of_conduct: Código de Conducta
+site_edit_this_page: Editar esta página
+blog_title: Blog de Yarn
+guide_additional_reading: Lectura Adicional
+iframe_github_stars: Estrellas de GitHub
+homepage_tagline: Manejo de dependencias rápido, confiable y seguro.
+homepage_feature_fast_title: Ultra Rápido.
+homepage_feature_fast_description: |
+  Yarn almacena en memoria cada paquete que descarga por lo que nunca debe volver a descargarlo. También realiza las operaciones en paralelo para maximizar utilización de recursos y que los tiempos de instalación sea más rápidos que nunca.
+homepage_feature_fast_image_alt: Imagen genérica de marcador de posición
+homepage_feature_secure_title: Mega Seguro.
+homepage_feature_secure_description: |
+  Yarn utiliza sumas de comprobación para verificar la integridad de cada paquete instalado antes de ejecutar su código.
+homepage_feature_secure_image_alt: Imagen genérica de marcador de posición
+homepage_feature_reliable_title: Super Confiable.
+homepage_feature_reliable_description: |
+  Utilizando un formato de archivo de bloqueo ("lockfile") detallado, pero conciso y un algoritmo determinista para instalaciones, Yarn es capaz de garantizar que una instalación que funciona en un sistema, funcione de la misma forma en otro sistema.
+homepage_feature_reliable_image_alt: Imagen genérica de marcador de posición
+homepage_c2a_text: '¿Qué estás esperando?'
+homepage_c2a_button: Empezar
+homepage_install_button: Instala Yarn
+homepage_featurette_offline_title: Modo Sin Conexión
+homepage_featurette_offline_description: |
+  Si has instalado un paquete, puedes instalarlo nuevamente sin tener conexión a internet.
+homepage_featurette_deterministic_title: Determinista
+homepage_featurette_deterministic_description: |
+  Las mismas dependencias serán instaladas exactamente de la misma forma en todas las máquinas, sin importar el orden de la instalación.
+homepage_featurette_network_performance_title: Rendimiento de la Red
+homepage_featurette_network_performance_description: |
+  Yarn encola solicitudes eficientemente y evita cascadas de solicitudes con el fin de maximizar la utilización de la red.
+homepage_featurette_npm_title: Mismos Paquetes
+homepage_featurette_npm_description: |
+  Instala cualquier paquete de npm y mantén tu flujo de trabajo con paquetes intacto.
+homepage_featurette_network_resillience_title: Flexibilidad de Red
+homepage_featurette_network_resillience_description: |
+  Una solicitud fallida no causará que una instalación falle. Las solicitudes son reintentadas al fallar.
+homepage_featurette_flat_mode_title: Modo Plano
+homepage_featurette_flat_mode_description: |
+  Resuelve conflictos de versiones no coincidentes en una única versión para evitar duplicados.
+docs_getting_started_title: Primeros pasos
+docs_getting_started_description: |
+  ¿Nunca has utilizado un gestor de paquetes antes o eres nuevo a Yarn? Vamos a dejarte listo en un par de minutos.
+docs_index: Documentación
+docs_getting_started: Primeros pasos
+docs_install: Instalación
+docs_usage: Uso
+docs_yarn_workflow_title: El Flujo de Trabajo de Yarn
+docs_yarn_workflow_description: |
+  ¿Cómo utilizo Yarn? Existen flujos de trabajo básicos tanto para crear como consumir paquetes Yarn que te ayudarán a ser productivo rápidamente.
+docs_yarn_workflow: El Flujo de Trabajo de Yarn
+docs_creating_a_project: Crear un nuevo proyecto
+docs_managing_dependencies: Manejar dependencias
+docs_installing_dependencies: Instalar dependencias
+docs_version_control: Trabajar con control de versiones
+docs_cli_title: CLI Commands
+docs_cli_description: |
+  Yarn se ejecuta a través de un completo conjunto de comandos permitiendo la instalación, administración, publicación de paquetes junto con otras tareas.
+docs_cli_index: CLI Introduction
+docs_cli_add: yarn add
+docs_cli_add_description: |
+  Cuando desee utilizar otro paquete, primero debe agregarlo a sus dependencias. Ejecutando `yarn add` lo instala en su proyecto.
+docs_cli_bin: yarn bin
+docs_cli_cache: yarn cache
+docs_cli_check: yarn check
+docs_cli_clean: yarn clean
+docs_cli_config: yarn config
+docs_cli_generate_lock_entry: yarn generate-lock-entry
+docs_cli_global: yarn global
+docs_cli_info: yarn info
+docs_cli_init: yarn init
+docs_cli_install: yarn install
+docs_cli_licenses: yarn licenses
+docs_cli_link: yarn link
+docs_cli_login: yarn login
+docs_cli_logout: yarn logout
+docs_cli_ls: yarn ls
+docs_cli_outdated: yarn outdated
+docs_cli_owner: yarn owner
+docs_cli_pack: yarn pack
+docs_cli_publish: yarn publish
+docs_cli_remove: yarn remove
+docs_cli_run: yarn run
+docs_cli_self_update: yarn self-update
+docs_cli_tag: yarn tag
+docs_cli_tag_description: |
+  Tags are a way of publishing versions of your package with a label.
+  Users of your package can install that instead of a version number.
+docs_cli_team: yarn team
+docs_cli_test: yarn test
+docs_cli_unlink: yarn unlink
+docs_cli_upgrade: yarn upgrade
+docs_cli_version: yarn version
+docs_cli_why: yarn why
+docs_migrating_from_npm_title: Migrating from npm client
+docs_migrating_from_npm_description: |
+  Yarn interops directly with many features of npm, including its package
+  metadata format, allowing for a painless migration.
+docs_migrating_from_npm: Migrating from npm
+docs_creating_a_package_title: Creando un Paquete
+docs_creating_a_package_description: |
+  Crear y publicar un paquete de yarn puede ser realizado con pocos comandos y parámetros de configuración, dejándolo a usted libre para poner foco en su código.
+docs_creating_a_package: Creando un Paquete
+docs_publishing_a_package: Publicando un Paquete
+docs_dependencies_title: Dependencias & Versiones
+docs_dependencies_description: |
+  Using Yarn you'll be working with dependencies all the time. Let's go through
+  the different types and versions of dependencies.
+docs_dependencies: Dependencias y versiones
+docs_dependency_types: Tipos de dependencias
+docs_dependency_versions: Versiones de las dependencias
+docs_dependency_versions_description: |
+  Los paquetes en Yarn siguen la convención de Versionamiento Semántico, también conocida como “semver”. Cuando usted instala un nuevo paquete, el mismo será agregado con un rango de versión de semver.
+docs_configuration_title: Configuración
+docs_configuration_description: |
+  Aprenda como utilizar package.json para configurar sus paquetes y dependencias
+docs_configuration_index: Configuración
+docs_configuration_package_json: package.json
+docs_configuration_yarn_lock: yarn.lock
+yarn_organization_title: Yarn Organization
+yarn_organization_description: |
+  The Yarn organization is a collaboration of many companies and
+  individuals dedicated to improving your package management experience.
+organization: Organization
+code_of_conduct: Código de Conducta
+contributing: Contributing
+translations: Traducciones
+release_process: Release Process
+governance: Governance
+users: Usuarios de Yarn
+compare: Compare Yarn Performance
+blog: Blog
+users_lead: Conozca a todos los usuarios de Yarn.
+users_description: >
+  Logos are added by company or project representatives. They may or may not be using Yarn on their main properties, but they're definitely using it somewhere.
+users_add_prompt: '¿Desea agregar su propia empresa o proyecto?'
+users_add_pr: Abrir un pull request
+users_add_requirements_image: >
+  Logos must be a 500x200px (2.5x1) SVG (preferred) or PNG image optimized with svgo, ImageOptim, or another image optimizer.
+users_add_requirements_logo: >
+  Por favor utilice una versión de su logo que funcione correctamente sobre fondo blanco.
+install_intro: >
+  Before you start using Yarn, you'll first need to install it on your system. There is a growing number of different ways to install Yarn:
+install_select_platform: Select your platform above
+install_os_mac: macOS
+install_os_windows: Windows
+install_os_linux: Linux
+install_os_alternatives: Alternativas
+install_test: "Compruebe que Yarn se encuentra instalado ejecutando:"
+install_problems_title: '¿Problemas?'
+install_problems_description: >
+  If you are unable to install Yarn with any of these installers, please search through GitHub for an existing issue or open a new one.
+install_problems_search: Search for an existing issue
+install_problems_new_issue: Open a new issue
+docs_nightly: Nightly Builds
+install_nightly_intro: >
+  Nightly builds are the latest and greatest versions of Yarn, built using the very latest Yarn source code. Nightly builds are useful to try new features or test bug fixes that have not yet been released as part of a stable release. However, these builds are <strong>not guaranteed to be stable</strong> and may have bugs.
+install_nightly_learn_more: See how to install nightly builds
+nightly_latest_version: Última Versión
+nightly_older_versions: Versiones Anteriores
+nightly_select_build_type: Select a build type above to see older builds
+install_table_name: Name
+install_table_type: Tipo
+install_table_size: Tamaño
+install_table_date: Fecha
+loading: Cargando...
+install_file:
+  deb: Debian package
+  js: Standalone JS
+  js-legacy: Standalone JS (Node < 4.0)
+  msi: Windows installer
+  rpm: RPM
+  tar: Tarball
+docs_install_ci: Continuous Integration
+ci_intro: >
+  Yarn can easily be used in various continuous integration systems. To speed up builds, the Yarn cache directory can be saved across builds.
+ci_select_platform: Select the continuous integration system you're using from the options above
+ci_appveyor: AppVeyor
+ci_circle: CircleCI
+ci_codeship: Codeship
+ci_travis: Travis
+ci_semaphore: Semaphore

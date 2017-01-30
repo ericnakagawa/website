@@ -1,0 +1,185 @@
+---
+site_title: Yarn
+site_description: מערכת ניהול תלויות מהירה, אמינה ומאובטחת.
+site_nav_getting_started: מתחילים
+site_nav_documentation: תיעוד
+site_nav_packages: חבילות
+site_nav_blog: בלוג
+site_bsd_license: מופץ תחת רשיון BSD
+site_code_of_conduct: הקוד האתי
+site_edit_this_page: עריכת דף זה
+blog_title: הבלוג של Yarn
+guide_additional_reading: קריאה נוספת
+iframe_github_stars: כוכבים ב-GitHub
+homepage_tagline: מערכת ניהול תלויות מהירה, אמינה ומאובטחת.
+homepage_feature_fast_title: מהיר בטירוף.
+homepage_feature_fast_description: |
+  Yarn שומר בזכרון המטמון כל חבילה שהוא מוריד, כך שלעולם לא יצטרך להוריד אותה מחדש. בנוסף, ההורדות מתבצעות במקביל כדי למקסם את השימוש במשאבים כך שזמני ההתקנה מהירים מתמיד.
+homepage_feature_fast_image_alt: תמונה שומרת-מקום גנרית
+homepage_feature_secure_title: מאובטח לאללה.
+homepage_feature_secure_description: |
+  Yarn משתמש ב-checksums כדי לאמת כל אחת מהחבילות המותקנות לפני שהקוד שלהן מורץ.
+homepage_feature_secure_image_alt: תמונה שומרת-מקום גנרית
+homepage_feature_reliable_title: אמין בקטע אחר.
+homepage_feature_reliable_description: |
+  משתמש בקובץ "נעילה" מפורט ומתומצת, ביחד עם אלגוריתם דטרמינסטי להתקנות. כך, Yarn מסוגל להבטיח שהתקנה שעבדה על מערכת אחת תעבוד בדיוק על כל מערכת אחרת.
+homepage_feature_reliable_image_alt: תמונה שומרת-מקום גנרית
+homepage_c2a_text: למה אתה מחכה?
+homepage_c2a_button: צא לדרך
+homepage_install_button: התקנת Yarn
+homepage_featurette_offline_title: מצב מנותק (Offline)
+homepage_featurette_offline_description: |
+  אם התקנת חבילה כלשהי בעבר, תוכל להתקין אותה מבלי להיות מחובר לאינטרנט.
+homepage_featurette_deterministic_title: דטרמיניסטי
+homepage_featurette_deterministic_description: |
+  אותן התלויות אותן התקנת יותקנו באותה התצורה בכל מכונה, בלי תלות לסדר ההתקנה.
+homepage_featurette_network_performance_title: ביצועי תקשורת
+homepage_featurette_network_performance_description: |
+  Yarn שומר את כל הבקשות בתור ונמנע מ"מפל מים" של בקשות כדי למקסם את השימוש במשאבי הרשת.
+homepage_featurette_npm_title: אותן החבילות
+homepage_featurette_npm_description: |
+  התקן כל חבילה מ-npm ותשאיר את תהליך השימוש בחבילות שלך בדיוק כפי שהוא.
+homepage_featurette_network_resillience_title: התאוששות מתקלות ברשת
+homepage_featurette_network_resillience_description: |
+  בקשה בודדת לא תגרום להתקנה להכשל. בקשות חוזרות על עצמן כאשר הן נכשלות.
+homepage_featurette_flat_mode_title: מצב שטוח
+homepage_featurette_flat_mode_description: |
+  פתרון גרסות לא מתאימות של תלויות על ידי גרסה בודדה כדי למנוע יצירת כפילויות.
+docs_getting_started_title: מתחילים
+docs_getting_started_description: |
+  מעולם לא השתמשת בכלי ניהול תלויות, או שאתה פשוט חדש ל-Yarn? בוא נריץ את זה ביחד בכמה דקות.
+docs_index: תיעוד
+docs_getting_started: מתחילים
+docs_install: התקנה
+docs_usage: שימוש
+docs_yarn_workflow_title: תהליך העבודה עם Yarn
+docs_yarn_workflow_description: |
+  איך אני משתמש ב-Yarn? יש כמה דרכי עבודה בכדי ליצור ולצרוך ספריות שיעזרו לך להיות פרודוקטיבי מהר.
+docs_yarn_workflow: תהליך העבודה עם Yarn
+docs_creating_a_project: יצירת פרויקט חדש
+docs_managing_dependencies: ניהול תלויות
+docs_installing_dependencies: התקנת תלויות
+docs_version_control: עבודה עם כלי בקרת תצורה
+docs_cli_title: ממשק שורת הפקודה
+docs_cli_description: |
+  דרך Yarn ניתן לבצע פעולות שונות על חבילות לרבות התקנתן, ניהולן, הפצתן, וכו'.
+docs_cli_index: הקדמה לשורת הפקודה
+docs_cli_add: yarn add
+docs_cli_add_description: |
+  כשאתה רוצה להשתמש בספריה אחרת, תצטרך להגדיר אותה כחלק מהתלויות שלך. להריץ `yarn add` מתקין אותה אל הפרויקט שלך.
+docs_cli_bin: yarn bin
+docs_cli_cache: yarn cache
+docs_cli_check: yarn check
+docs_cli_clean: yarn clean
+docs_cli_config: yarn config
+docs_cli_generate_lock_entry: yarn generate-lock-entry
+docs_cli_global: yarn global
+docs_cli_info: yarn info
+docs_cli_init: yarn init
+docs_cli_install: yarn install
+docs_cli_licenses: yarn licenses
+docs_cli_link: yarn link
+docs_cli_login: yarn login
+docs_cli_logout: yarn logout
+docs_cli_ls: yarn ls
+docs_cli_outdated: yarn outdated
+docs_cli_owner: yarn owner
+docs_cli_pack: yarn pack
+docs_cli_publish: yarn publish
+docs_cli_remove: yarn remove
+docs_cli_run: yarn run
+docs_cli_self_update: yarn self-update
+docs_cli_tag: yarn tag
+docs_cli_tag_description: |
+  תגיות הן דרך להפיץ גרסאות שונות של החבילה שלך עם תגית כלשהי. משתמשים של החבילה שלך יוכלו להשתמש בתגית זו במקום במספר הגרסה.
+docs_cli_team: yarn team
+docs_cli_test: yarn test
+docs_cli_unlink: yarn unlink
+docs_cli_upgrade: yarn upgrade
+docs_cli_version: yarn version
+docs_cli_why: yarn why
+docs_migrating_from_npm_title: מעבר מ-npm
+docs_migrating_from_npm_description: |
+  Yarn שקול ל-npm בהרבה דרכים, לרבות קובץ הגדרת החבילה, מה שתורם למעבר בין הכלים ללא בלאגן.
+docs_migrating_from_npm: מעבר מ-npm
+docs_creating_a_package_title: יצירת חבילה
+docs_creating_a_package_description: |
+  יצירה והפצת חבילה יכולה להעשות על ידי מספר פקודות והגדרות, כך שתוכל להתמקד בקוד שלך.
+docs_creating_a_package: יצירת חבילה
+docs_publishing_a_package: הפצת חבילה
+docs_dependencies_title: תלויות וגרסאות
+docs_dependencies_description: |
+  בעזרת Yarn אתה תשתמש בתלויות כל הזמן. בוא נעבור דרך הסוגים השונים והגרסאות השונות של תלויות.
+docs_dependencies: תלויות וגרסאות
+docs_dependency_types: סוגי תלויות
+docs_dependency_versions: גרסאות של תלויות
+docs_dependency_versions_description: |
+  חבילות ב-Yarn עובדות לפי Semantic Versioning, הידוע גם בתור "semver". כשאתה מתקין חבילה חדשה היא תיווסף עם טווח גרסת ה-Semver שלה.
+docs_configuration_title: הגדרות תצורה
+docs_configuration_description: |
+  למד כיצד להשתמש ב-package.json כדי להגדיר את החבילה והתלויות
+docs_configuration_index: הגדרות תצורה
+docs_configuration_package_json: package.json
+docs_configuration_yarn_lock: yarn.lock
+yarn_organization_title: הארגון של Yarn
+yarn_organization_description: |
+  הארגון של Yarn הוא שיתוף פעולה של מספר חברות ואנשים פרטיים שמטרתם לשפר את חווית ניהול החבילות שלך.
+organization: ארגון
+code_of_conduct: הקוד האתי
+contributing: תרומה
+translations: תרגומים
+release_process: תהליך ההפצה
+governance: ניהול
+users: משתמשי Yarn
+compare: השוואת ביצועים של Yarn
+blog: בלוג
+users_lead: הכר את כל משתמשי Yarn.
+users_description: >
+  הלוגואים נוספו על ידי נציגי החברה או הפרויקט. הם עשויים להשתמש או לא להשתמש ב-Yarn כחלק מהתהליכים הראשיים שלהם, אבל הם בהחלט משתמשים בו במקום כלשהו.
+users_add_prompt: רוצה להוסיף את החברה או הפרויקט שלך?
+users_add_pr: פתח pull request
+users_add_requirements_image: >
+  לוגואים צריכים להיות קובץ SVG (מועדף) או PNG, בגודל 500x200px (2.5x1), שעבר על ידי svgo, ImageOptim או ממטב תמונות כלשהו.
+users_add_requirements_logo: >
+  אנא השתמש בגרסה של הלוגו שלך שנראית טוב על רקע לבן.
+install_intro: >
+  לפני שתתחיל להשתמש ב-Yarn, תצטרך להתקין אותו ראשית על המערכת שלך. אלה מספר דרכים לעשות זאת:
+install_select_platform: בחר את הפלטפורמה שלך לעיל
+install_os_mac: macOS
+install_os_windows: Windows
+install_os_linux: Linux
+install_os_alternatives: אחר
+install_test: "נבדוק ש-Yarn עובד:"
+install_problems_title: בעיות כלשהן?
+install_problems_description: >
+  אם אתה לא מצליח להתקין את Yarn באמצעות אחת מההתקנות, אנא תחפש ב-GitHub האם קיים issue בנושא, ואם אין, תפתח אחד.
+install_problems_search: חפש עבור issue קיים
+install_problems_new_issue: פתח issue חדש
+docs_nightly: Builds ליליים
+install_nightly_intro: >
+  Builds ליליים הם הגרסה האחרונה והגדולה ביותר, מספרית, של Yarn, אשר נבנית על ידי הקוד החדש ביותר של Yarn. גרסאות ליליות שימושיות כשאתה רוצה לבדוק פיצ'רים חדשים או לבדוק באגים שעדיין לא שוחררו כחלק מהגרסה היציבה. בכל זאת, הגרסאות האלה <strong>לא מובטחות כיציבות</strong> ויתכן וקיימים בהן באגים.
+install_nightly_learn_more: תראה כיצד מתקינים את ה-builds הליליים
+nightly_latest_version: הגרסה האחרונה
+nightly_older_versions: גרסאות ישנות יותר
+nightly_select_build_type: בחר בסוג build כדי לראות builds ישנים יותר
+install_table_name: שם
+install_table_type: סוג
+install_table_size: גודל
+install_table_date: תאריך
+loading: טוען...
+install_file:
+  deb: חבילת Debian
+  js: Standalone JS
+  js-legacy: Standalone JS (Node < 4.0)
+  msi: התקנה למיקרוסופט ווינדוס
+  rpm: RPM
+  tar: Tarball
+docs_install_ci: Continuous Integration
+ci_intro: >
+  ניתן להתקין את Yarn בקלות בשלל פתרונות ה-Continuous Integration. כדי לעשות את תהליך הבנייה מהיר יותר, ניתן לשמור את תיקיית זכרון המטמון של Yarn בין תהליכי הבנייה השונים.
+ci_select_platform: בחר את מערכת ה-Continuous Integration בה אתה משתמש מהבחירות מעלה
+ci_appveyor: AppVeyor
+ci_circle: AppVeyor
+ci_codeship: CircleCI
+ci_travis: Codeship
+ci_semaphore: Semaphore
